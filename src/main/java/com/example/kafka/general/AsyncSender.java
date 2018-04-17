@@ -35,6 +35,7 @@ public class AsyncSender {
             });
         });
         producer.flush();
+        System.out.println();
         producer.close();
     }
 
