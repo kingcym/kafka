@@ -1,0 +1,4 @@
+spring:
+  kafka:
+    bootstrap-servers: 47.98.37.251:9092
+    consumer.group-id: springboot-group1
